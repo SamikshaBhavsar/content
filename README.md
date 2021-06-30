@@ -29,17 +29,17 @@
 18. ***Visual Representation***
 19. ***Conclusion***
 
-# <b>1.Introduction to Numpy</b>
+# <b>1.Introduction to Numpy :memo:</b>
   NumPy also known as ***Numerical Python*** is an open source library that is used for mainly working with numerical data. It provides a high-performance multidimensional array  object, and tools for working with these arrays. It also has functions for working in the domain of linear algebra, fourier transform, and matrices.
-# <b>2.Prerequisites</b>
+# <b>2.Prerequisites :arrow_backward:</b>
 * Basic knowledge about python
 * Jupyter notebook or any editor for practising.
-# <b>3.Basic features of Numpy</b>
+# <b>3.Basic features of Numpy :diamond_shape_with_a_dot_inside:</b>
   * NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
   * The array object in NumPy is called ndarray which provides a lot of supporting functions that make working with ndarray very easy.
   * NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.
   
-# <b>4.Python Lists and Arrays</b>
+# <b>4.Python Lists and Arrays :ballot_box_with_check:</b>
 NumPy is something which deals with arrays, so let’s have a look at what Arrays are.
 ## Array
 * An array is a special variable, which can hold more than one value at a time.
@@ -103,12 +103,16 @@ Output:
 
 <br>
 
-# 5.Why NumPy over Python Lists?
+# 5.Why NumPy over Python Lists :question:
 * NumPy can provide an array object that is up to 50x faster than traditional Python lists.
 * Arrays are very frequently used in data science, where speed and resources are very important.
 * In Python we have lists that serve the purpose of arrays, but they are slow to process.
-* It provides various mathematical functions which can be carried on easily.
-# 6.Installating and Importing Numpy
+* It provides various mathematical functions which can be carried on easily.<br>
+<p align="center">
+<img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYn72i3qeOmxjt5Th24PEiBr08_jSyHhOTJA&usqp=CAU", height = 400, width = 550>
+</p><br>
+
+# 6.Installating and Importing Numpy :computer:
 ## Installation
 If you have Python and pip already installed on a system, then installation of NumPy is very easy.<br>
 Install it using this command:<br>
@@ -118,7 +122,7 @@ Or if you are using anaconda prompt then you can use this command-<br>
 ## Importing
 If you want to use numpy in your program, first you have to import it. You can import the Numpy library by-<br>
 ```Import numpy as np```<br>
-# 7.Creating Numpy array
+# 7.Creating Numpy array :bookmark_tabs:
 To create a basic NumPy Array you can use the function np.array() The array object in NumPy is called ndarray.<br>
 ```
 import numpy as np
@@ -201,7 +205,7 @@ Output:
 <br>
 
 
-# 8.Nd Array(N-Dimensional Array)
+# 8.Nd Array(N-Dimensional Array) :arrow_up:
 * An array class in Numpy is called an ndarray.
 * Number of dimensions of the array is called the rank of the array
 * Let us understand by creating Nd array:
@@ -253,7 +257,7 @@ Output:
  
  <br>
  
-# 9.Array Indexing and Slicing
+# 9.Array Indexing and Slicing :pushpin:
 ## Indexing
 Indexing NumPy arrays is similar to that of Python lists. You can simply pass in the index you want.
 Still, a detail explanation:
@@ -324,7 +328,7 @@ Output:
 ```
 <br>
 
-# 10.Numpy Array Shape and reshape
+# 10.Numpy Array Shape and reshape :triangular_ruler:
 ## Shaping
 It is possible to know the no. of  dimensions in the array and no.of elements present in these dimensions respectively.
 Lets see these numpy functions-
@@ -434,7 +438,7 @@ Output:
 
 <b>Note</b> - We can only reshape the array if the elements required for reshaping are equal in both shapes.
 <b>For example</b> - We can reshape an 8 elements 1D array into 4 elements in 2 rows 2D array but we cannot reshape it into a 3 elements 3 rows 2D array as that would require 3x3 = 9 elements.
-# 11.Broadcasting
+# 11.Broadcasting :white_square_button:
 Broadcasting is a quick way to change the values of a NumPy array.<br>
 
 ```
@@ -452,7 +456,7 @@ print(arr)
 ```
 <br>
 
-# 12.Performing arithmetic operations on NumPy Arrays
+# 12.Performing arithmetic operations on NumPy Arrays :heavy_division_sign:
 You can also do basic arithmetic operations with arrays. <br>
 
 
@@ -486,7 +490,7 @@ Output:
 <br>
 
 
-# 13.How To Insert And Delete Array Elements
+# 13.How To Insert And Delete Array Elements :scissors:
 * We can insert and delete an element at particular index in NumPy array with the use of ```numpy.insert()``` and ```numpy.delete()``` function.
 * We can also use ```numpy.append()``` function to append any element at the end of array.
 * Parameters for these functions:
@@ -519,7 +523,7 @@ Output:
 
 <br>
 
-# 14.Some mathematical function:
+# 14.Some mathematical function :heavy_plus_sign:
 You can use these functions on large data sets and find the answers in just seconds. 
 
 ```numpy.sum()``` - use it to get sum of all elements in array
@@ -585,7 +589,7 @@ median of the given array :  18.5
 
 
 If you are wondering about the mode function, then numpy doesn’t have mode function.
-# 15.Numpy Sorting, searching, and Counting
+# 15.Numpy Sorting, searching, and Counting :mag_right:
 ## Sorting:
 Sorting is the arranging data in a particular format. Sorting algorithm specifies the way to arrange data in a particular order. A variety of sorting related functions are available in NumPy. These sorting functions implement different sorting algorithms.
 ```numpy.sort()```:This function returns a sorted copy of an input array.
@@ -690,7 +694,7 @@ Output indices to maintain sorted array :  2
 
 <br>
 
-## Counting
+## Counting 
 ```numpy.count_nonzero()```: Counts the number of non-zero values in the array.<br>
 
 
@@ -716,7 +720,7 @@ Number of nonzero values is : [1 1 1 1 1]
 <br>
 
 
-# 16.Joining Numpy Arrays 
+# 16.Joining Numpy Arrays :loop:
 * Joining means putting contents of two or more arrays in a single array.
 * In SQL we join tables based on a key, whereas in NumPy we join arrays by axes.
 * We pass a sequence of arrays that we want to join to the ```concatenate()``` function, along with the axis. If axis is not explicitly passed, it is taken as 0.
@@ -768,7 +772,7 @@ Output:
 
 
 
-## Joining  Arrays using stack function :
+## Joining  Arrays using stack function:
 * Stacking is same as concatenation, the only difference is that stacking is done along a new axis.
 * We can concatenate two 1-D arrays along the second axis which would result in putting them one over the other, ie. stacking.
 * We pass a sequence of arrays that we want to join to the ``stack()`` method along with the axis. If axis is not explicitly passed it is taken as 0.
@@ -797,7 +801,7 @@ Output:
 <br>
 
 
-# 17.Comparison and Copying
+# 17.Comparison and Copying :books:
 ## Comparing two numpy arrays
 Comparing two NumPy arrays determines whether they are equivalent by checking if every element at each corresponding index are the same.
 ## Method 1:
@@ -864,7 +868,7 @@ Output:
 <br>
 
 
-# 18.Visual Representation
+# 18.Visual Representation :chart:
 NumPy has a ```numpy.histogram()``` function that is a graphical representation of the frequency distribution of data. Rectangles of equal horizontal size corresponding to class interval called <b>bin</b> and <b>variable height</b> corresponding to frequency.
 ```numpy.histogram()``` : function takes the input array and bins as two parameters.The successive elements in bin array act as the boundary of each bin. <br>
 
@@ -916,7 +920,7 @@ plt.show()
 
 
 
-# 19.Conclusion
+# 19.Conclusion :lock:
 * NumPy is one of the most fundamental libraries in Machine Learning and Data Science. 
 * It’s coded in Python and it uses vectorized forms to perform calculations at an incredible speed. 
 * It supports various built-in functions that come in handy for many programmers.<br>
@@ -926,4 +930,4 @@ So, as we are done with the Numpy basics, you can now practise in your jupyter n
 
 
 ```EXPLORE, LEARN, PRACTISE!``` <br><br>
-<b>By: Samiksha Bhavsar, Kushupati Deekshitha, Subham Nanda <b>
+<b>By: Samiksha Bhavsar, Kusupati Deekshitha, Subham Nanda <b>
