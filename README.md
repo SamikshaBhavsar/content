@@ -44,6 +44,12 @@ NumPy is something which deals with arrays, so let’s have a look at what Array
 ## Array
 * An array is a special variable, which can hold more than one value at a time.
 * All the stored items should be of the same type.
+<p align="center">
+   <img src="https://vrzkj25a871bpq7t1ugcgmn9-wpengine.netdna-ssl.com/wp-content/uploads/2018/09/numpy-array-with-index-and-value.png" alt="Numpy" ,height = 300, width=500>
+   <br />
+   
+</p>
+   
 * Arrays are basically divided into two types:
   * One-Dimensional Array 
   * Multi-Dimensional Array
@@ -63,6 +69,12 @@ NumPy is something which deals with arrays, so let’s have a look at what Array
    An array of characters is called a string.
 * ### Multi-Dimensional Array
     The Multi dimensional array is a type of array that stores multiple data elements of the same type in matrix or table like format with a number of rows and columns.
+   <p align="center">
+   <img src="https://iq.opengenus.org/content/images/2020/04/index.png" alt="1-D Array">
+   <br />
+   
+</p> 
+    
 ## List
 Now lets learn about a bit of python Lists.
 * A List is used to store the sequence of various types of data. 
@@ -895,20 +907,20 @@ plt.show()
 
 
 
-```
-Output:
+<img  src = "https://www.pythonpool.com/wp-content/uploads/2020/11/histogram_plot.jpg">
 
 
-```
 
 
-<br>
+
+
 
 
 # 19.Conclusion
 * NumPy is one of the most fundamental libraries in Machine Learning and Data Science. 
 * It’s coded in Python and it uses vectorized forms to perform calculations at an incredible speed. 
-* It supports various built-in functions that come in handy for many programmers.
+* It supports various built-in functions that come in handy for many programmers.<br>
+
 So, as we are done with the basics, you can now practise in your jupyter notebook. 
 
 
