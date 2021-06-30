@@ -9,28 +9,28 @@
 <b><font color=green>```Table of Contents``` </font></b>
 
 
-1. Introduction to Numpy
-2. Prerequisites 
-3. Basic features of Numpy
-4. Python Lists and Arrays
-5. Why NumPy over Python Lists?
-6. Installating and Importing 
-7. Creating Numpy array 
-8. NdArray(N-Dimensional Array)
-9. Array Indexing and Slicing
-10. Numpy Array Shape and reshape
-11. Broadcasting
-12. Performing arithmetic operations on NumPy Arrays
-13. How To Insert And Delete Array Elements
-14. Some mathematical functions
-15. Numpy Sorting, searching, and Counting
-16. Joining Numpy Arrays
-17. Comparision and Copying 
-18. Visual Representation
-19. Conclusion
+1. ***Introduction to Numpy***
+2. ***Prerequisites***
+3. ***Basic features of Numpy***
+4. ***Python Lists and Arrays***
+5. ***Why NumPy over Python Lists?***
+6. ***Installating and Importing*** 
+7. ***Creating Numpy array*** 
+8. ***NdArray(N-Dimensional Array)***
+9. ***Array Indexing and Slicing***
+10. ***Numpy Array Shape and reshape***
+11. ***Broadcasting***
+12. ***Performing arithmetic operations on NumPy Arrays***
+13. ***How To Insert And Delete Array Elements***
+14. ***Some mathematical functions***
+15. ***Numpy Sorting, searching, and Counting***
+16. ***Joining Numpy Arrays***
+17. ***Comparision and Copying*** 
+18. ***Visual Representation***
+19. ***Conclusion***
 
 # <b>1.Introduction to Numpy</b>
-  NumPy also known as Numerical Python is an open source library that is usedfor mainly working with numerical data. It provides a high-performance multidimensional array  object, and tools for working with these arrays. It also has functions for working in the domain of linear algebra, fourier transform, and matrices.
+  NumPy also known as ***Numerical Python*** is an open source library that is used for mainly working with numerical data. It provides a high-performance multidimensional array  object, and tools for working with these arrays. It also has functions for working in the domain of linear algebra, fourier transform, and matrices.
 # <b>2.Prerequisites</b>
 * Basic knowledge about python
 * Jupyter notebook or any editor for practising.
