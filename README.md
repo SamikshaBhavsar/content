@@ -207,8 +207,10 @@ Output:
 
 # 8.Nd Array(N-Dimensional Array) :arrow_up:
 * An array class in Numpy is called an ndarray.
-* Number of dimensions of the array is called the rank of the array
-* Let us understand by creating Nd array:
+* Number of dimensions of the array is called the rank of the array<br>
+<p align="center"><img src = "https://cdn.educba.com/academy/wp-content/uploads/2019/12/numpy-ndarray.png", height = 400 width = 700></p><br>
+
+* Lets understand by creating Nd array:
 
 <br>
 
