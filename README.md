@@ -15,7 +15,7 @@
 4. Python Lists and Arrays
 5. Why NumPy over Python Lists?
 6. Installating and Importing 
-7. Creating Numpy array #from python lists, arange() and linspace()
+7. Creating Numpy array 
 8. NdArray(N-Dimensional Array)
 9. Array Indexing and Slicing
 10. Numpy Array Shape and reshape
@@ -921,18 +921,9 @@ plt.show()
 * It’s coded in Python and it uses vectorized forms to perform calculations at an incredible speed. 
 * It supports various built-in functions that come in handy for many programmers.<br>
 
-So, as we are done with the basics, you can now practise in your jupyter notebook. 
+So, as we are done with the Numpy basics, you can now practise in your jupyter notebook. 
+<br>
 
 
-
-
-
-
-
-
-
-
-
-
-
-  
+```EXPLORE, LEARN, PRACTISE!``` <br><br>
+<b>By: Samiksha Bhavsar, Kushupati Deekshitha, Shubham Nanda <b>
