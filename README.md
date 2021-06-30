@@ -10,7 +10,7 @@
 
 
 1. Introduction to Numpy
-2. Prerequistes 
+2. Prerequisites 
 3. Basic features of Numpy
 4. Python Lists and Arrays
 5. Why NumPy over Python Lists?
@@ -31,8 +31,9 @@
 
 # <b>1.Introduction to Numpy</b>
   NumPy also known as Numerical Python is an open source library that is usedfor mainly working with numerical data. It provides a high-performance multidimensional array  object, and tools for working with these arrays. It also has functions for working in the domain of linear algebra, fourier transform, and matrices.
-# <b>2.Prerequistes</b>
-Basic knowledge about python.
+# <b>2.Prerequisites</b>
+* Basic knowledge about python
+* Jupyter notebook or any editor for practising.
 # <b>3.Basic features of Numpy</b>
   * NumPy aims to provide an array object that is up to 50x faster than traditional Python lists.
   * The array object in NumPy is called ndarray which provides a lot of supporting functions that make working with ndarray very easy.
@@ -40,14 +41,14 @@ Basic knowledge about python.
   
 # <b>4.Python Lists and Arrays</b>
 NumPy is something which deals with arrays, so let’s have a look at what Arrays are.
-## ARRAYS
+## Array
 * An array is a special variable, which can hold more than one value at a time.
 * All the stored items should be of the same type.
 * Arrays are basically divided into two types:
   * One-Dimensional Array 
   * Multi-Dimensional Array
 * ### One-Dimensional Array 
-  One Dimensional array is a simple data structure that stores a collection of similartype data in a contiguous block of memory. 
+  One Dimensional array is a simple data structure that stores a collection of similar type data in a contiguous block of memory. 
     Example:- 
     ```An Integer array in C/C++/Javaint ar[] = {1,4,67,3,64}```
     
@@ -62,11 +63,34 @@ NumPy is something which deals with arrays, so let’s have a look at what Array
    An array of characters is called a string.
 * ### Multi-Dimensional Array
     The Multi dimensional array is a type of array that stores multiple data elements of the same type in matrix or table like format with a number of rows and columns.
-## PYTHON LISTS
+## List
 Now lets learn about a bit of python Lists.
-* These are a kind of arrays.
+* A List is used to store the sequence of various types of data. 
+* These are a kind of arrays. Data are inclosed inside [ ] brackets seprated by commas(,). 
+* Lists are mutable in nature it means data which can be changed when required. 
+* Duplicate entries are allowed in list. 
+* A list can also have another list as an item. Such list is called a nested list.
 * Basically a bit more easier and handy.
 * A Python list may contain different types! Indeed, you can store a number, a string, and even another list within a single list.
+<br>
+
+```
+my_list = [] #create empty list
+print(my_list)
+my_list = [1, 2, 3, 'example', 3.132] #creating list with data
+print(my_list)
+```
+
+<br>
+
+```
+Output:
+[]
+[1, 2, 3, ‘example’, 3.132]
+```
+
+<br>
+
 # 5.Why NumPy over Python Lists?
 * NumPy can provide an array object that is up to 50x faster than traditional Python lists.
 * Arrays are very frequently used in data science, where speed and resources are very important.
@@ -100,16 +124,123 @@ Output:
 
 <br>
 
-You can create some Arrays using builtin functions.
-* To create an Array of Zeroes use np.zeros()
-* To create an Array of Ones use np.ones()
-* To create an Array with a range of elements use np.arange()
-code
+## Creating numpy arrays from python lists
+Say we have a Python list: <br>
+
+```
+my_list = [1, 2, 3, 4, 5]
+```
+<br>
+
+We can simply create a NumPy array called my_numpy_list and display the result: <br>
+
+```
+my_numpy_list = np.array(my_list)
+my_numpy_list  #This line show the result of the array generated
+```
+
+<br>
+
+
+## Create some Arrays using builtin functions
+* To create an Array of Zeroes use ```np.zeros()```.
+* To create an Array of Ones use ```np.ones()```.
+* To create an Array with a range of elements use ```np.arange()```. <br>
+
+
+```
+arr1 = np.zeros(3)
+arr2 = np.ones(5)
+arr3 = np.arange(5)
+arr4 = np.arange(1,4)    # To specify start and stop
+arr4 = np.arange(1,4,2)  # To specify start, stop and step size
+```
+
+<br>
+
+```
+Output:
+[0. 0. 0.]
+[1. 1. 1. 1. 1.]
+[0 1 2 3 4]
+[1 2 3]
+[1 3]
+```
+
+<br>
+
+
+## Generating an array of random numbers in NumPy
+* We can generate an array of random numbers using ```rand()```, ```randn()``` or ```randint()``` functions.
+* Using ```random.rand()```, we can generate an array of random numbers of the shape we pass to it from uniform distribution over 0 to 1.
+* For example, say we want a one-dimensional array of 4 objects that are uniformly distributed from 0 to 1, we can do this: <br>
+
+```
+random_arr = np.random.rand(4)
+```
+<br>
+
+It will return array of some random values between 0 and 1. Like : <br>
+
+```
+Output:
+[0.72424238 0.36030484 0.3686609  0.20998672]
+```
+<br>
+
 
 # 8.Nd Array(N-Dimensional Array)
 * An array class in Numpy is called an ndarray.
 * Number of dimensions of the array is called the rank of the array
-code
+* Let us understand by creating Nd array:
+
+<br>
+
+ ```
+ import numpy as np
+ arr1=np.array([[1,2,3],[4,5,6]])
+ arr2=np.array([[1,2,3],[4,5,6],[7,8,9]])
+ arr3=np.array([['a','b','c'],['d','e','f']])
+
+ #creates a 3X3 array with all zeros
+ zeros=np.zeros((3,3))
+
+ #creates a 2X2 array with all ones
+ ones=np.ones((2,2),dtype='int64')  #specify the type with (dtype) parameter 
+
+ print(arr1)
+ print(arr2)
+ print(arr3)
+ print(zeros)
+ print(ones)
+ ```
+ 
+ <br>
+ 
+ ```
+ Output:
+ [[1 2 3]
+  [4 5 6]]
+
+ [[1 2 3]
+  [4 5 6]
+  [7 8 9]] 
+
+ [['a' 'b' 'c']
+  ['d' 'e' 'f']]
+
+ # 3X3 Matrix
+ [[ 0.  0.  0.]
+  [ 0.  0.  0.]
+  [ 0.  0.  0.]]
+
+ # 2X2 Matrix
+ [[1 1]
+  [1 1]]
+ ```
+ 
+ <br>
+ 
 # 9.Array Indexing and Slicing
 ## Indexing
 Indexing NumPy arrays is similar to that of Python lists. You can simply pass in the index you want.
