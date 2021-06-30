@@ -926,4 +926,4 @@ So, as we are done with the Numpy basics, you can now practise in your jupyter n
 
 
 ```EXPLORE, LEARN, PRACTISE!``` <br><br>
-<b>By: Samiksha Bhavsar, Kushupati Deekshitha, Shubham Nanda <b>
+<b>By: Samiksha Bhavsar, Kushupati Deekshitha, Subham Nanda <b>
